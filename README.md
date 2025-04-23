@@ -13,4 +13,4 @@ To run this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/bytebitt/Britlex
