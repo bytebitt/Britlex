@@ -199,14 +199,8 @@
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
-  .mt-25 {
-    margin-top: calc(var(--spacing) * 25);
-  }
   .mt-\[57px\] {
     margin-top: 57px;
-  }
-  .ml-10 {
-    margin-left: calc(var(--spacing) * 10);
   }
   .block {
     display: block;
@@ -220,23 +214,8 @@
   .h-\[70px\] {
     height: 70px;
   }
-  .h-\[85px\] {
-    height: 85px;
-  }
   .h-\[118px\] {
     height: 118px;
-  }
-  .h-\[460px\] {
-    height: 460px;
-  }
-  .h-auto {
-    height: auto;
-  }
-  .max-h-\[460px\] {
-    max-height: 460px;
-  }
-  .w-\[85px\] {
-    width: 85px;
   }
   .w-\[220px\] {
     width: 220px;
@@ -244,14 +223,8 @@
   .w-\[438px\] {
     width: 438px;
   }
-  .w-\[460px\] {
-    width: 460px;
-  }
   .max-w-\[1500px\] {
     max-width: 1500px;
-  }
-  .max-w-full {
-    max-width: 100%;
   }
   .flex-col {
     flex-direction: column;
@@ -305,15 +278,8 @@
   .text-\[24px\] {
     font-size: 24px;
   }
-  .text-\[48px\] {
-    font-size: 48px;
-  }
   .text-\[64px\] {
     font-size: 64px;
-  }
-  .leading-\[64px\] {
-    --tw-leading: 64px;
-    line-height: 64px;
   }
   .leading-\[80px\] {
     --tw-leading: 80px;
@@ -374,16 +340,6 @@
       height: 460px;
     }
   }
-  .max-lg\:w-\[2\] {
-    @media (width < 64rem) {
-      width: 2;
-    }
-  }
-  .max-lg\:w-\[160\] {
-    @media (width < 64rem) {
-      width: 160;
-    }
-  }
   .max-lg\:w-\[292px\] {
     @media (width < 64rem) {
       width: 292px;
@@ -392,11 +348,6 @@
   .max-lg\:w-\[460px\] {
     @media (width < 64rem) {
       width: 460px;
-    }
-  }
-  .max-lg\:rounded {
-    @media (width < 64rem) {
-      border-radius: 0.25rem;
     }
   }
   .max-lg\:rounded-\[5px\] {
@@ -432,11 +383,6 @@
       line-height: 64px;
     }
   }
-  .max-lg\:text-red-400 {
-    @media (width < 64rem) {
-      color: var(--color-red-400);
-    }
-  }
   .max-md\:block {
     @media (width < 48rem) {
       display: block;
@@ -447,20 +393,9 @@
       display: none;
     }
   }
-  .max-md\:text-xl {
-    @media (width < 48rem) {
-      font-size: var(--text-xl);
-      line-height: var(--tw-leading, var(--text-xl--line-height));
-    }
-  }
   .max-md\:text-\[16px\] {
     @media (width < 48rem) {
       font-size: 16px;
-    }
-  }
-  .max-md\:text-\[20px\] {
-    @media (width < 48rem) {
-      font-size: 20px;
     }
   }
   .max-md\:text-\[36px\] {
@@ -468,25 +403,10 @@
       font-size: 36px;
     }
   }
-  .max-md\:text-\[48px\] {
-    @media (width < 48rem) {
-      font-size: 48px;
-    }
-  }
   .max-md\:leading-\[45px\] {
     @media (width < 48rem) {
       --tw-leading: 45px;
       line-height: 45px;
-    }
-  }
-  .max-md\:text-red-400 {
-    @media (width < 48rem) {
-      color: var(--color-red-400);
-    }
-  }
-  .max-sm\:order-2 {
-    @media (width < 40rem) {
-      order: 2;
     }
   }
   .max-sm\:order-last {
@@ -504,11 +424,6 @@
       display: inline;
     }
   }
-  .max-sm\:w-full {
-    @media (width < 40rem) {
-      width: 100%;
-    }
-  }
   .max-sm\:flex-col {
     @media (width < 40rem) {
       flex-direction: column;
@@ -517,85 +432,6 @@
   .max-sm\:text-center {
     @media (width < 40rem) {
       text-align: center;
-    }
-  }
-  .sm\:inline {
-    @media (width >= 40rem) {
-      display: inline;
-    }
-  }
-  .sm\:text-red-600 {
-    @media (width >= 40rem) {
-      color: var(--color-red-600);
-    }
-  }
-  .md\:block {
-    @media (width >= 48rem) {
-      display: block;
-    }
-  }
-  .md\:hidden {
-    @media (width >= 48rem) {
-      display: none;
-    }
-  }
-  .md\:text-\[48px\] {
-    @media (width >= 48rem) {
-      font-size: 48px;
-    }
-  }
-  .md\:text-\[64px\] {
-    @media (width >= 48rem) {
-      font-size: 64px;
-    }
-  }
-  .md\:leading-\[64px\] {
-    @media (width >= 48rem) {
-      --tw-leading: 64px;
-      line-height: 64px;
-    }
-  }
-  .md\:leading-\[80px\] {
-    @media (width >= 48rem) {
-      --tw-leading: 80px;
-      line-height: 80px;
-    }
-  }
-  .md\:text-red-400 {
-    @media (width >= 48rem) {
-      color: var(--color-red-400);
-    }
-  }
-  .md\:text-red-600 {
-    @media (width >= 48rem) {
-      color: var(--color-red-600);
-    }
-  }
-  .lg\:text-\[72px\] {
-    @media (width >= 64rem) {
-      font-size: 72px;
-    }
-  }
-  .lg\:leading-\[64px\] {
-    @media (width >= 64rem) {
-      --tw-leading: 64px;
-      line-height: 64px;
-    }
-  }
-  .lg\:leading-\[90px\] {
-    @media (width >= 64rem) {
-      --tw-leading: 90px;
-      line-height: 90px;
-    }
-  }
-  .lg\:text-red-400 {
-    @media (width >= 64rem) {
-      color: var(--color-red-400);
-    }
-  }
-  .lg\:text-red-600 {
-    @media (width >= 64rem) {
-      color: var(--color-red-600);
     }
   }
 }
